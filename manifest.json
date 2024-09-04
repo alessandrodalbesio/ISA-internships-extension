@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "ISA internship extension",
+    "version": "1.0",
+    "description": "Extension to make it easier to apply for internships",
+    "permissions": [
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://isa.epfl.ch/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
