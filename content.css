@@ -1,0 +1,23 @@
+.table-container .grid {
+    margin: 1rem auto 1rem auto!important;
+}
+.table-container table caption {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.table-container .grid tbody tr:nth-child(even) td {
+    background-color: #ffffff!important;
+}
+
+.table-container td:first-child {
+    width: 10%;
+    white-space: nowrap;
+}
+.table-container td:nth-child(2) {
+    cursor: pointer;
+}
+.table-container td > select {
+    margin: 0;
+    width: 100%;
+}
